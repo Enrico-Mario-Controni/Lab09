@@ -18,7 +18,7 @@ class AttrazioneDAO:
 
         cursor = cnx.cursor(dictionary=True)
         query = """ SELECT *
-                    FROM attrazione""" # TODO
+                    FROM attrazione"""
         try:
             cursor.execute(query)
             for row in cursor:

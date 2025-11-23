@@ -17,7 +17,7 @@ class TourDAO:
 
         cursor = cnx.cursor(dictionary=True)
         query = """ SELECT *
-                    FROM tour""" # TODO
+                    FROM tour"""
         try:
             cursor.execute(query)
             for row in cursor:
@@ -52,7 +52,7 @@ class TourDAO:
 
         cursor = cnx.cursor(dictionary=True)
         query = """ SELECT *
-                    FROM tour_attrazione""" # TODO
+                    FROM tour_attrazione"""
         try:
             cursor.execute(query)
             for row in cursor:
